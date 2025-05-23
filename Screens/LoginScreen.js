@@ -20,7 +20,7 @@ export default function LoginScreen({ navigation, setIsLoggedIn }) {
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/images/logo.png')} style={styles.logo} />
+      <Image source={require('../assets/logo.png.png')} style={styles.logo} />
       <Text style={styles.title}>Login</Text>
       <TextInput
         placeholder="Email"

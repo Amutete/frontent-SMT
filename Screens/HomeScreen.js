@@ -4,7 +4,7 @@ import { View, Text, Button, StyleSheet, Image, TouchableOpacity } from 'react-n
 export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/images/home-banner.png')} style={styles.banner} />
+      <Image source={require('../assets/images/Banner or welcome image for Home.png')} style={styles.banner} />
       <Text style={styles.title}>Welcome to RTP App</Text>
 
       <View style={styles.buttonRow}>
